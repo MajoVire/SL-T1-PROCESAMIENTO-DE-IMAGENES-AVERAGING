@@ -6,7 +6,7 @@ def load_image(filepath):
     return Image.open(filepath).convert("RGB")
 
 def apply_averaging_blur(image, kernel_size):
-    # Aplica el método de suavizado de promediado en la imagen a color con un kernel de tamaño definido.
+    # Aplica el metodo de suavizado de promediado en la imagen a color con un kernel de tamaño definido.
     width, height = image.size
     pixels = image.load()
 
